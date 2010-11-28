@@ -1,0 +1,11 @@
+Oppgave 3 - Spring DI + Threads.
+
+I denne oppgaven skal vi ha en kjørende tjeneste som leser inn CSV-filer fra en input-katalog
+(gitt av systemvariabel input_dir) fortløpende. Alle filer som blir funnet skal valideres. OK filer skal
+flyttes til en output-katalog (gitt av systemvariabel output_dir). Ikke OK filer skal flyttes til en
+error-katalog (gitt av systemvariabelen error_dir).
+
+1. Ta utgangspunkt i klassen eu.nets.intervju.NumberService og sørg for at den blir lastet i Spring-konteksten.
+2. Tjenesten skal scanne input_dir hvert sekund.
+3. Hver fil som blir funnet skal (som i oppgave 1 og 2) valideres. Hvis Valid så flyttes filen til output_dir. Hvis ikke
+   så flyttes den til error_dir. Tjenesten skal støtte validering/flytting av 10 filer samtidig.

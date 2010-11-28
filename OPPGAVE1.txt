@@ -1,0 +1,8 @@
+Oppgave 1 - Validator
+
+1. Lag et Java-program som gjør følgende:
+    - Les inn filen "numbers.csv" fra classpath'en.
+    - Valider filen og sjekk at alle linjene overholder følgende:
+        - Filen inneholder linjer med comma-separerte tall.
+        - Det siste tallet på en linje skal være lik summen av alle de andre tallene på den aktuelle linjen.
+        - Skriv resultatet til konsollet: "Validert OK" eller "Kunne ikke valideres".

@@ -1,0 +1,10 @@
+Oppgave 2 - Spring
+
+1. Ta utgangspunkt i oppgave 1. Nå skal alle filer med extension *.csv leses inn fra en katalog
+   som er gitt som en system property (input_dir) ved kjøring av programmet.
+
+    - Implementer manglende logikk i klassen eu.nets.intervju.file.FileSlurper.
+    - Instansen av denne klassen skal lastes fra en Spring kontekst (se spring-context.xml).
+2. Hver fil som blir funnet skal valideres (som i oppgave 1). Valideringen skal kalles/implementeres som en Callback
+   til FileSlurper.
+    
